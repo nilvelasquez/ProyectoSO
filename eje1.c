@@ -78,8 +78,10 @@ void main(){
 	if (row == NULL)
 		printf ("No se han obtenido datos en la consulta.\n");
 	else
+	{
 		puntos = row[0];
-	printf("%s ha hecho %s puntos el dia %s. \n", nombre, puntos, data);
+		printf("%s ha hecho %s puntos el dia %s. \n", nombre, puntos, data);
+	}
 	
 	mysql_close (conn);
 }
