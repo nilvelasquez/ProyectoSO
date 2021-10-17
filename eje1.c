@@ -41,7 +41,7 @@ void main(){
 	row = mysql_fetch_row (resultado);
 	if(row == NULL)
 	{
-		printf("No hay ID para %s.\n", nom);
+		printf("No hay ID para %s.\n", nombre);
 	}
 	else
 	{
